@@ -1,0 +1,61 @@
+{
+  "name": "varification",
+  "version": "1.0.0",
+  "description": "verify the user info",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon",
+    "lint": "eslint",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "verification"
+  ],
+  "author": "atul.bhardwaj",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
+    "apollo-boost": "^0.1.16",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.3.0",
+    "install": "^0.13.0",
+    "mongoose": "^5.9.25",
+    "npm": "^6.14.7",
+    "rdf-namespaces": "^1.8.0",
+    "solid-auth-client": "^2.4.1",
+    "swagger-express-mw": "^0.7.0",
+    "swagger-ui-express": "^4.1.4",
+    "tripledoc": "^4.3.4"
+  },
+  "module": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^7.5.0",
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
+    "nodemon": "^2.0.4"
+  }
+}

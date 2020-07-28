@@ -1,0 +1,12 @@
+test
+scripts
+docs
+lcov-report
+**/node_modules/**
+**/dist/**
+**/target/**
+**/coverage/**
+**/build/**
+**/__tests__/**
+**/__functional__/**
+.build
